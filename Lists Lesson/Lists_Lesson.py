@@ -1,3 +1,3 @@
 fruit_list=["apple", "banana", "cherry", "kiwi", "mango"]
-for fruit in fruit_list:
-    print(fruit)
+for index in range(len(fruit_list)):
+    print(fruit_list[index])
